@@ -1,0 +1,31 @@
+{
+  "name": "BrowserPair",
+  "description": "BrowserPair connects AI agents to a user's existing Chrome profile for browser tasks with scoped permissions, approvals, and durable task state.",
+  "website": "https://browserpair.com",
+  "documentation": "https://docs.browserpair.com",
+  "application": "https://app.browserpair.com",
+  "githubOrganization": "https://github.com/BrowserPair",
+  "mcp": {
+    "url": "https://mcp.browserpair.com",
+    "transport": "streamable-http",
+    "authentication": "OAuth for connected AI apps; agent keys for direct integrations",
+    "documentation": "https://docs.browserpair.com/remote-mcp"
+  },
+  "clients": [
+    {
+      "name": "ChatGPT",
+      "guide": "https://docs.browserpair.com/chatgpt"
+    },
+    {
+      "name": "Claude",
+      "guide": "https://docs.browserpair.com/claude",
+      "guideStatus": "pending docs PR 4"
+    }
+  ],
+  "execution": "Paired Chrome extension in the user's connected profile; paired browser must be online.",
+  "planning": "External AI app or a user-configured Brain model for managed tasks.",
+  "dataFlow": "Website sessions remain in the connected profile. Browser observations and task results can flow through BrowserPair to the connected AI app; this is not a local-only processing claim.",
+  "sourceCode": "The main application source is private. The public organization contains documentation, examples, workflow guides, and community resources.",
+  "pricingSource": "https://browserpair.com/pricing",
+  "lastReviewed": "2026-10-23"
+}
