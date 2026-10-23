@@ -11,7 +11,7 @@ BrowserPair connects ChatGPT, Claude and custom AI agents to the Chrome profile 
 ## Get started
 
 1. Install the [Chrome extension](https://chromewebstore.google.com/detail/agdomhjeahcbelohnmjmbldeldclnoof) and pair your browser in the [BrowserPair app](https://app.browserpair.com/).
-2. Choose a connection: [ChatGPT](https://docs.browserpair.com/chatgpt), [another AI app](https://docs.browserpair.com/connect-ai-app), [Remote MCP](https://docs.browserpair.com/remote-mcp), or [REST](https://docs.browserpair.com/rest-api).
+2. Choose a connection: [ChatGPT](https://docs.browserpair.com/chatgpt), [Claude](https://docs.browserpair.com/claude), [another AI app](https://docs.browserpair.com/connect-ai-app), [Remote MCP](https://docs.browserpair.com/remote-mcp), or [REST](https://docs.browserpair.com/rest-api).
 3. Define the browser, websites and capabilities the agent may use.
 4. Start a small task. Review any approval request and inspect the result.
 
@@ -42,12 +42,21 @@ BrowserPair Cloud coordinates accounts, permissions, routing, approvals, usage a
 
 Use BrowserPair when your own signed-in profile and user-controlled agent authority are central to the workflow. Use Playwright when you need programmable tests, isolated browser contexts or deterministic CI automation. They serve different needs; choose by the session and verification requirements.
 
+Read the [BrowserPair, Playwright, and Browser Use comparison](https://docs.browserpair.com/compare-browser-automation) for existing-session support and integration choices.
+
 ## Public resources
 
 - [Documentation](https://docs.browserpair.com/): setup, permissions, task semantics and API reference.
 - [Examples](https://github.com/BrowserPair/examples): minimal integration code and connection recipes.
 - [Skills](https://github.com/BrowserPair/skills): reusable task knowledge and verification checklists.
 - [Awesome browser agents](https://github.com/BrowserPair/awesome-browser-agents): tools, frameworks and evaluation resources across the ecosystem.
+
+## Guides and integration metadata
+
+- [Browser sessions and data flow](https://docs.browserpair.com/browser-session-data-flow): what stays in Chrome and what observations can reach an AI provider.
+- [Read an authenticated dashboard](https://docs.browserpair.com/read-authenticated-dashboard): a bounded workflow for ChatGPT or Claude.
+- [Official MCP Registry entry](https://registry.modelcontextprotocol.io/v0.1/servers/com.browserpair%2Fbrowserpair/versions/latest): `com.browserpair/browserpair`, remote Streamable HTTP.
+- [Product facts](./product.json) and [registry metadata](./registry/): maintained public integration references.
 
 ## Frequently asked questions
 
