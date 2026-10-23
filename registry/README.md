@@ -1,17 +1,27 @@
 # BrowserPair MCP Registry metadata
 
-This directory prepares the remote-server listing for the official MCP Registry. **Not published yet.** Committing this file does not create a registry listing.
+This directory tracks BrowserPair's published remote-server listing in the official MCP Registry.
 
-The candidate name is `com.browserpair/browserpair`. Its reverse-domain namespace should be authenticated through BrowserPair's domain before publication. The production server remains `https://mcp.browserpair.com`; its private implementation is not included here.
+- Name: `com.browserpair/browserpair`
+- Version: `1.0.0`
+- Status verified: **active**, latest version
+- Published: October 23, 2026
+- [Live registry record](https://registry.modelcontextprotocol.io/v0.1/servers/com.browserpair%2Fbrowserpair/versions/latest)
 
-## Review before publication
+The listing was read back from the production API after publication. The publisher CLI and official JSON schema both validated the manifest. Committing metadata alone does not publish registry updates.
+
+The name `com.browserpair/browserpair` uses BrowserPair's reverse-domain namespace. Domain ownership was authenticated using the Registry's DNS proof procedure. The production server remains `https://mcp.browserpair.com`; its private implementation is not included here.
+
+## Future updates
 
 1. Search the live registry for BrowserPair and the exact remote URL. Reuse an existing owned listing if one appears; do not create a competing identity.
 2. Validate `server.json` against its pinned official schema with the current publisher CLI.
 3. Confirm the public HTTPS endpoint and OAuth discovery still work.
 4. Authenticate the domain namespace using the official DNS or HTTP procedure. Keep publisher private keys and login tokens outside Git.
-5. Publish with `mcp-publisher publish registry/server.json` after publication approval, then read the entry back from the production registry.
-6. Record the returned server name, version, and verified listing URL here. Registry versions are separate from extension and application versions.
+5. Increment the manifest version and publish with `mcp-publisher publish registry/server.json` after publication approval, then read the entry back from the production registry.
+6. Update the version and verified listing URL here. Registry versions are separate from extension and application versions.
+
+The one-time signing key, login token, and temporary DNS proof used for initial publication were removed afterward. Future publication should generate a fresh proof or use another approved namespace authentication method.
 
 The listing uses only a remote transport. No package entry or public copy of the application source is needed.
 
