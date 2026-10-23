@@ -28,3 +28,13 @@
 - Review Search Console and Bing ownership, coverage, and submitted sitemaps. These account metrics were not verified in this audit. Reuse the existing IndexNow setup for materially changed canonical URLs after publication.
 
 Crawl access and structured data do not guarantee indexing, ranking, or AI citations. This audit records observable technical conditions rather than a visibility score.
+
+## Publication follow-up — October 23, 2026
+
+- Documentation PR #4 and metadata PR #1 were merged with the owner's explicit approval.
+- Mintlify confirmed docs commit `140ac87b2f9ceb8543a41d486e791edb89f42722` live. All four new guide URLs returned HTTP 200 and appeared in the docs sitemap.
+- Official MCP Registry publication succeeded for `com.browserpair/browserpair@1.0.0`. Both the exact-record API and search API returned the entry with `status: active` and `isLatest: true`.
+- Registry authentication used a temporary BrowserPair DNS TXT proof. The generated signing key, login token, and that exact temporary record were removed after publication. No existing DNS records were changed.
+- Product facts and hub README now link the live Claude guide and registry entry.
+- GSC Wizard refused Search Console and Bing inspection because its trial/subscription is inactive. No search-account metrics or sitemap submissions were verified through it; no subscription was purchased.
+- The registered host's read-only terminal inspection remains QUEUED with no stdout or exit status. Private website metadata/link changes and their required source validation/preview were not performed. The private application repository was not modified.
