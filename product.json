@@ -9,7 +9,13 @@
     "url": "https://mcp.browserpair.com",
     "transport": "streamable-http",
     "authentication": "OAuth for connected AI apps; agent keys for direct integrations",
-    "documentation": "https://docs.browserpair.com/remote-mcp"
+    "documentation": "https://docs.browserpair.com/remote-mcp",
+    "registry": {
+      "name": "com.browserpair/browserpair",
+      "version": "1.0.0",
+      "status": "active",
+      "url": "https://registry.modelcontextprotocol.io/v0.1/servers/com.browserpair%2Fbrowserpair/versions/latest"
+    }
   },
   "clients": [
     {
@@ -18,8 +24,7 @@
     },
     {
       "name": "Claude",
-      "guide": "https://docs.browserpair.com/claude",
-      "guideStatus": "pending docs PR 4"
+      "guide": "https://docs.browserpair.com/claude"
     }
   ],
   "execution": "Paired Chrome extension in the user's connected profile; paired browser must be online.",
