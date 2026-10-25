@@ -60,16 +60,20 @@ Read the [BrowserPair, Playwright, and Browser Use comparison](https://docs.brow
 
 ## Frequently asked questions
 
-**Does BrowserPair include an AI subscription?**  
+**Does BrowserPair include an AI subscription?**
+
 Your AI app or configured model provider supplies the model. Check [pricing](https://browserpair.com/pricing) for current BrowserPair limits and billing.
 
-**Can a web page or Skill grant more permissions?**  
+**Can a web page or Skill grant more permissions?**
+
 No. Page content, screenshots, model output and Skills cannot expand the user's authority.
 
-**What happens after a disconnect or an uncertain click?**  
+**What happens after a disconnect or an uncertain click?**
+
 Read the current task state and obtain fresh evidence. Do not blindly repeat a potentially completed action. See [task semantics](https://docs.browserpair.com/task-semantics).
 
-**Is BrowserPair open source?**  
+**Is BrowserPair open source?**
+
 The public resources in this organization are available under their own licenses. The hosted product and extension source are maintained privately.
 
 ## Help and feedback
