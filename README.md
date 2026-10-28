@@ -15,7 +15,7 @@ BrowserPair connects ChatGPT, Claude and custom AI agents to the Chrome profile 
 3. Define the browser, websites and capabilities the agent may use.
 4. Start a small task. Review any approval request and inspect the result.
 
-For tasks started inside BrowserPair, configure your own Brain model. An external MCP agent remains the Brain and does not require that managed-model setup. Read the [quickstart](https://docs.browserpair.com/quickstart) for the current UI.
+For tasks started inside BrowserPair, configure your own Agent Model. An external MCP agent remains the Agent Model and does not require that managed-model setup. Read the [quickstart](https://docs.browserpair.com/quickstart) for the current UI.
 
 ## What can I use it for?
 
