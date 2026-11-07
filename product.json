@@ -1,0 +1,67 @@
+{
+  "name": "BrowserPair",
+  "description": "Connect AI agents to your existing Chrome with Standard or Developer permissions, durable tasks and outcome verification.",
+  "website": "https://browserpair.com",
+  "documentation": "https://docs.browserpair.com",
+  "application": "https://app.browserpair.com",
+  "githubOrganization": "https://github.com/BrowserPair",
+  "mcp": {
+    "url": "https://mcp.browserpair.com",
+    "transport": "streamable-http",
+    "authentication": "OAuth for connected AI apps; agent keys for direct integrations",
+    "documentation": "https://docs.browserpair.com/remote-mcp",
+    "registry": {
+      "name": "com.browserpair/browserpair",
+      "version": "1.0.0",
+      "status": "active",
+      "url": "https://registry.modelcontextprotocol.io/v0.1/servers/com.browserpair%2Fbrowserpair/versions/latest"
+    }
+  },
+  "clients": [
+    {
+      "name": "ChatGPT",
+      "guide": "https://docs.browserpair.com/chatgpt"
+    },
+    {
+      "name": "Claude",
+      "guide": "https://docs.browserpair.com/claude"
+    }
+  ],
+  "execution": "Paired Chrome extension in the user's connected profile; paired browser must be online.",
+  "planning": "External AI app or a user-configured Agent Model for managed tasks.",
+  "dataFlow": "Website sessions remain in the connected profile. Browser observations and task results can flow through BrowserPair to the connected AI app; this is not a local-only processing claim.",
+  "sourceCode": "The main application source is private. The public organization contains documentation, examples, workflow guides, and community resources.",
+  "pricingSource": "https://browserpair.com/pricing",
+  "lastReviewed": "2026-11-07",
+  "permissions": {
+    "modes": [
+      "Standard",
+      "Developer"
+    ],
+    "websites": "All websites in both modes; Chrome host permission and managed policy still apply.",
+    "tools": "All tools in both modes; advertised MCP tools differ by authentication surface.",
+    "standardConfirmations": [
+      "payments/purchases",
+      "sign-in and account/security changes",
+      "deleting",
+      "sending/publishing",
+      "file uploads/downloads",
+      "passwords/secrets"
+    ],
+    "developerConfirmations": "No mode confirmations; task-requested confirmations still apply.",
+    "customization": "No per-site allow lists or per-category switches."
+  },
+  "signIn": {
+    "methods": [
+      "Google",
+      "GitHub",
+      "email/password"
+    ]
+  },
+  "rest": {
+    "url": "https://api.browserpair.com"
+  },
+  "observations": "Full-document interactive refs, including offscreen controls with in_viewport; bounded captured text search via task_find and lists/tables via task_extract.",
+  "effectRecovery": "Fresh observation and resolution required for uncertain effects; never replay them.",
+  "extensionVersion": "0.4.0"
+}
