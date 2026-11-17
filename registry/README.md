@@ -3,8 +3,9 @@
 This repository includes the public metadata for BrowserPair's official remote MCP server.
 
 - Server: `com.browserpair/browserpair`
-- Version: `1.0.0`
+- Version: `1.1.0`
 - Endpoint: `https://mcp.browserpair.com`
+- Integration packages: [BrowserPair/browserpair-integrations](https://github.com/BrowserPair/browserpair-integrations)
 - [Current listing in the official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/com.browserpair%2Fbrowserpair/versions/latest)
 
 The registry entry describes how clients connect to the hosted service. It does not publish BrowserPair's application or extension source code.
