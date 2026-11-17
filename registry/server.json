@@ -2,9 +2,13 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.browserpair/browserpair",
   "title": "BrowserPair",
-  "description": "Connect AI agents to your Chrome with Standard or Developer modes, durable tasks and verification.",
-  "version": "1.0.0",
+  "description": "Let AI agents work in your own signed-in Chrome, with approvals and verified results.",
+  "version": "1.1.0",
   "websiteUrl": "https://browserpair.com",
+  "repository": {
+    "url": "https://github.com/BrowserPair/browserpair-integrations",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
