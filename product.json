@@ -12,7 +12,7 @@
     "documentation": "https://docs.browserpair.com/remote-mcp",
     "registry": {
       "name": "com.browserpair/browserpair",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "active",
       "url": "https://registry.modelcontextprotocol.io/v0.1/servers/com.browserpair%2Fbrowserpair/versions/latest"
     }
@@ -32,7 +32,7 @@
   "dataFlow": "Website sessions remain in the connected profile. Browser observations and task results can flow through BrowserPair to the connected AI app; this is not a local-only processing claim.",
   "sourceCode": "The main application source is private. The public organization contains documentation, examples, workflow guides, and community resources.",
   "pricingSource": "https://browserpair.com/pricing",
-  "lastReviewed": "2026-11-07",
+  "lastReviewed": "2026-11-22",
   "permissions": {
     "modes": [
       "Standard",
@@ -45,11 +45,11 @@
       "sign-in and account/security changes",
       "deleting",
       "sending/publishing",
-      "file uploads/downloads",
       "passwords/secrets"
     ],
     "developerConfirmations": "No mode confirmations; task-requested confirmations still apply.",
-    "customization": "No per-site allow lists or per-category switches."
+    "customization": "No per-site allow lists or per-category switches.",
+    "fileOperations": "Uploads and downloads are enabled by default in both modes, with separate owner-controlled settings; disabling either refuses that operation. Choosing a local file still requires the user."
   },
   "signIn": {
     "methods": [
@@ -63,5 +63,6 @@
   },
   "observations": "Full-document interactive refs, including offscreen controls with in_viewport; bounded captured text search via task_find and lists/tables via task_extract.",
   "effectRecovery": "Fresh observation and resolution required for uncertain effects; never replay them.",
-  "extensionVersion": "0.4.0"
+  "extensionVersionSource": "https://chromewebstore.google.com/detail/agdomhjeahcbelohnmjmbldeldclnoof",
+  "integrations": "https://github.com/BrowserPair/browserpair-integrations"
 }

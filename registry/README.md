@@ -16,4 +16,4 @@ Registry versions are independent of BrowserPair extension versions.
 
 ## Product permissions
 
-Both modes work on every website and offer every browser tool. Standard asks only before payments and purchases, sign-in, account or security changes, deleting, sending or publishing, file uploads or downloads, and passwords or secrets. Developer has no mode confirmations. Task-requested confirmations and Chrome site permissions still apply; Chrome may ask you to grant site access.
+Both modes work on every website and offer every browser tool. Standard asks only before payments and purchases, sign-in, account or security changes, deleting, sending or publishing, and passwords or secrets. File uploads and downloads are enabled by default in both modes and can be disabled separately in account Permissions. Developer has no mode confirmations. Task-requested confirmations and Chrome site permissions still apply; Chrome may ask you to grant site access.

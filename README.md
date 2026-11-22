@@ -8,7 +8,7 @@ BrowserPair connects ChatGPT, Claude and custom AI agents to the Chrome profile 
 
 [Start free](https://app.browserpair.com/) · [Website](https://browserpair.com/) · [Documentation](https://docs.browserpair.com/) · [Chrome extension](https://chromewebstore.google.com/detail/agdomhjeahcbelohnmjmbldeldclnoof) · [Changelog](https://browserpair.com/changelog/)
 
-Current extension version: **0.4.0**.
+For the currently published extension version, see the [Chrome Web Store listing](https://chromewebstore.google.com/detail/agdomhjeahcbelohnmjmbldeldclnoof).
 
 ## Get started
 
@@ -90,6 +90,6 @@ Contributions to docs, examples and Skills belong in their respective repositori
 
 ## Permission modes
 
-Both modes work on every website and offer every browser tool. Standard asks only before payments and purchases, sign-in, account or security changes, deleting, sending or publishing, file uploads or downloads, and passwords or secrets. Developer has no mode confirmations. Task-requested confirmations and Chrome site permissions still apply; Chrome may ask you to grant site access.
+Both modes work on every website and offer every browser tool. Standard asks only before payments and purchases, sign-in, account or security changes, deleting, sending or publishing, and passwords or secrets. File uploads and downloads are enabled by default in both modes and can be disabled separately in account Permissions. Developer has no mode confirmations. Task-requested confirmations and Chrome site permissions still apply; Chrome may ask you to grant site access.
 
 Sign in with Google, GitHub or email/password. Remote MCP: `https://mcp.browserpair.com`; REST: `https://api.browserpair.com`.
