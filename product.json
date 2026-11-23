@@ -20,7 +20,8 @@
   "clients": [
     {
       "name": "ChatGPT",
-      "guide": "https://docs.browserpair.com/chatgpt"
+      "guide": "https://docs.browserpair.com/chatgpt",
+      "pluginUrl": "https://chatgpt.com/plugins/plugin_asdk_app_6ac5859a310c8191b959b4cfd69b2668"
     },
     {
       "name": "Claude",
@@ -32,7 +33,7 @@
   "dataFlow": "Website sessions remain in the connected profile. Browser observations and task results can flow through BrowserPair to the connected AI app; this is not a local-only processing claim.",
   "sourceCode": "The main application source is private. The public organization contains documentation, examples, workflow guides, and community resources.",
   "pricingSource": "https://browserpair.com/pricing",
-  "lastReviewed": "2026-11-22",
+  "lastReviewed": "2026-11-23",
   "permissions": {
     "modes": [
       "Standard",

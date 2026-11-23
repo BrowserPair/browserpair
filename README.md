@@ -6,18 +6,18 @@ BrowserPair connects ChatGPT, Claude and custom AI agents to the Chrome profile 
 
 **This is the official product and community hub. The application source is private and maintained separately.**
 
-[Start free](https://app.browserpair.com/) · [Website](https://browserpair.com/) · [Documentation](https://docs.browserpair.com/) · [Chrome extension](https://chromewebstore.google.com/detail/agdomhjeahcbelohnmjmbldeldclnoof) · [Changelog](https://browserpair.com/changelog/)
+[ChatGPT plugin](https://chatgpt.com/plugins/plugin_asdk_app_6ac5859a310c8191b959b4cfd69b2668) · [Start free](https://app.browserpair.com/) · [Website](https://browserpair.com/) · [Documentation](https://docs.browserpair.com/) · [Chrome extension](https://chromewebstore.google.com/detail/agdomhjeahcbelohnmjmbldeldclnoof) · [Changelog](https://browserpair.com/changelog/)
 
 For the currently published extension version, see the [Chrome Web Store listing](https://chromewebstore.google.com/detail/agdomhjeahcbelohnmjmbldeldclnoof).
 
 ## Get started
 
 1. Install the [Chrome extension](https://chromewebstore.google.com/detail/agdomhjeahcbelohnmjmbldeldclnoof) and pair your browser in the [BrowserPair app](https://app.browserpair.com/).
-2. Choose a connection: [ChatGPT](https://docs.browserpair.com/chatgpt), [Claude](https://docs.browserpair.com/claude), [another AI app](https://docs.browserpair.com/connect-ai-app), [Remote MCP](https://docs.browserpair.com/remote-mcp), or [REST](https://docs.browserpair.com/rest-api).
+2. For ChatGPT, open the [published BrowserPair plugin](https://chatgpt.com/plugins/plugin_asdk_app_6ac5859a310c8191b959b4cfd69b2668) and choose **Connect** ([setup guide](https://docs.browserpair.com/chatgpt)). For Claude, [another AI app](https://docs.browserpair.com/connect-ai-app), [Remote MCP](https://docs.browserpair.com/remote-mcp), or [REST](https://docs.browserpair.com/rest-api), follow the corresponding integration guide.
 3. Choose the browser, task intent and account-wide Standard or Developer mode.
 4. Start a small task. Review any approval request and inspect the result.
 
-For tasks started inside BrowserPair, configure your own Agent Model. An external MCP agent remains the Agent Model and does not require that managed-model setup. Read the [quickstart](https://docs.browserpair.com/quickstart) for the current UI.
+The published ChatGPT plugin connects through OAuth without manual MCP server setup. For tasks started inside BrowserPair, configure your own Agent Model. An external MCP agent remains the Agent Model and does not require that managed-model setup. Read the [quickstart](https://docs.browserpair.com/quickstart) for the current UI.
 
 ## What can I use it for?
 
